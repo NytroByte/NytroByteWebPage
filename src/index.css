@@ -3,6 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #121212;
+    color: white;
+    font-family: 'Poppins';
 }
 .headerLinks {
     display: flex;
@@ -57,4 +60,42 @@ body {
 }
 .activeLanguage {
     padding-right: 10px;
+}
+
+/* Landing page */
+
+.landingpage_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header_text {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h2_text {
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 97px;
+    width: 100%;
+}
+
+.h3_text {
+    font-size: 45px;
+    font-weight: 600;
+    margin: 0;
+    margin-left: 97px;
+
+    width: 100%;
+}
+
+.h2_text h2 {
+    margin: 0
+}
+.h3_text h3 {
+    margin: 0
 }
