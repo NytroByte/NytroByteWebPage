@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.headerLinks {
+    display: flex;
+    width: 35%;
+    text-align: center;
+}
+.link {
+    padding: 0 20px;
+    transition: 0.3s color;
+}
+.headerWrapper {
+    padding: 20px 20px;
+    display: flex;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 45px;
+}
+.headerLanguageSelector {
+    padding: 0 20px;
+    width: 65%;
+    display: flex;
+    justify-content: right;
+}
+.triangle {
+    transition: transform 0.2s;
+    position: relative;
+    top: -45px;
+    left: 19px;
+    transform-origin: center;
+    object-position: center;
+    
+}
+
+.languageDropdown {
+    height: 0;
+}
+.headerLanguageSelector.open .languageDropdown {
+    height: 400px;
+}
+.triangle a{
+    
+    height: 0;
+    width: 0;
+}
+.headerLanguageSelector.open .triangle {
+    transform: rotate(90deg);
+}
+.link:hover {
+    color: #FF8B00;
+}
+.activeLanguage {
+    padding-right: 10px;
+}
