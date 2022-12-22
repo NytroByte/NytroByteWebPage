@@ -4,6 +4,9 @@ body {
     padding: 0;
     box-sizing: border-box;
 }
+* {
+    background-color: #121212;
+}
 .headerLinks {
     display: flex;
     width: 35%;
@@ -13,7 +16,24 @@ body {
     padding: 0 20px;
     transition: 0.3s color;
 }
+.header {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    height: 60px;
+    z-index: 1000000;
+    position: fixed;
+    top: 0;
+    line-height: 4em;
+    text-align: center;
+    color: white;
+    transition: transform 150ms ease-in-out;
+}
+.nav-bar--hidden {
+    transform: translateY(-100%);
+}
 .headerWrapper {
+    width: 100%;
     padding: 20px 20px;
     display: flex;
     font-family: 'Poppins';
@@ -22,6 +42,7 @@ body {
     font-size: 20px;
     line-height: 45px;
 }
+
 .headerLanguageSelector {
     padding: 0 20px;
     width: 65%;
@@ -42,7 +63,7 @@ body {
     height: 0;
 }
 .headerLanguageSelector.open .languageDropdown {
-    height: 400px;
+    height: auto;
 }
 .triangle a{
     

@@ -1,11 +1,20 @@
-import { useState } from "react";
+import useScrollListener from "./useScrollListener";
+import React, {useState, useEffect} from "react";
 function Header() {
-    const [showLang, setVisLang] = useState(false);
-    const handleLanguageOpen = () => {
-        setVisLang((previous) => !previous)
-    }
+    const [navClassList, setNavClassList] = useState([]);
+    const scroll = useScrollListener();
+  
+    // update classList of nav on scroll
+    useEffect(() => {
+      const _classList = [];
+  
+      if (scroll.y > 150 && scroll.y - scroll.lastY > 0)
+        _classList.push("nav-bar--hidden");
+  
+      setNavClassList(_classList);
+    }, [scroll.y, scroll.lastY]);
     return(
-        <div className="header">
+        <div className={`header ${navClassList.join(" ")}`}>
             <div className="headerWrapper">
                 <div className="headerLinks">
                     <div className="link">
@@ -18,7 +27,7 @@ function Header() {
                         <a>contact</a>
                     </div>
                 </div>
-                <div className={`headerLanguageSelector ${showLang ? "open": ""}`} onClick={handleLanguageOpen}>
+                {/* <div className={`headerLanguageSelector ${showLang ? "open": ""}`} onClick={handleLanguageOpen}>
                     <div className="headerLanguageWrapper">
                         <div className="activeLanguage">
                             lv
@@ -28,16 +37,13 @@ function Header() {
                             <div className={`languageDropdown`} >
                                 <div className="languageOptions">
                                     <div className="option">
-                                        <a>RU</a>
-                                    </div>
-                                    <div className="option">
                                         <a>EN</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
