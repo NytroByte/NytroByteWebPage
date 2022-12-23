@@ -3,10 +3,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-* {
     background-color: #121212;
 }
+
 .headerLinks {
     display: flex;
     width: 35%;
@@ -15,6 +14,7 @@ body {
 .link {
     padding: 0 20px;
     transition: 0.3s color;
+    cursor: pointer;
 }
 .header {
     width: 100%;
@@ -89,3 +89,87 @@ body {
     text-shadow: -1px -1px 0 #FF8B00, 1px -1px 0 #FF8B00, -1px 1px 0 #FF8B00, 1px 1px 0 #FF8B00;
     transform: rotate(-90deg);
 }
+
+
+/* Landing page */
+
+.landingpage_wrapper {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    overflow: hidden;
+    color: white;
+}
+
+.headertext {
+    width: 100%;
+    font-family: 'Poppins';
+}
+
+.headertext h2 {
+    font-size: 70px;
+    margin-left: 97px;
+}
+
+.headertext h3 {
+    font-size: 45px;
+    margin-left: 97px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+.about_button {
+    width: 364px;
+    height: 73px;
+    background-color: #FF8B00;
+    border-radius: 45px;
+    cursor: pointer;
+    margin-left: 84px;
+    margin-top: 55px;
+
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    color: #FFFFFF;
+}
+
+/* Landing page - demotext  */
+
+.demotext {
+    overflow: hidden;
+    /* display: flex; */
+    width: 100%;
+}
+
+.demotext h1 {
+    font-family: 'Bebas Neue';
+    color:#121212;
+    -webkit-text-stroke: 1px #FFFFFF;
+    font-size: 180px;
+    text-overflow: clip;
+    transform: rotate(45deg);
+    flex-wrap: nowrap;
+    
+    z-index: 50000000;
+
+
+    position: relative;
+}
+
+.demotext h2 {
+    font-family: 'Bebas Neue';
+    color:#121212;
+    -webkit-text-stroke: 1px #FF8B00;
+    font-size: 180px;
+    transform: rotate(45deg);
+    width: inherit;
+    overflow: hidden;
+
+
+    position: relative;
+}
+
