@@ -3,11 +3,12 @@ function LandingPage() {
         <div className="landingpage_wrapper">
             <div className="headertext">
                 <h2>Lorem ipsum sussy</h2>
-                <h3>You not sussy?</h3>
+                <h3>NytroByte?</h3>
+                <button className="about_button" type="button">here</button>
             </div>
-            <div className="slogan">
-                <div className="h1"><h1>THE CHANGE IS HERE</h1></div>
-                <div className="h1_nytro"><h1>NYTROBYTE</h1></div>
+            <div className="demotext">
+                <h1>The change is here</h1>
+                <h2>nytrobyte</h2>
             </div>
         </div>
     )
