@@ -1,3 +1,4 @@
+import image from "../media/images/imag1.png"
 function About() {
     return(
         <div className="AboutSectionWrapper">
@@ -9,8 +10,9 @@ function About() {
                         </div>
                     </div>
                     <div className="buildingContainer">
+                        <img src={image}/>
                         <div className="contHeader">
-
+                            building
                         </div>
                         <div className="contDescription">
 
