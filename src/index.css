@@ -79,18 +79,18 @@ body {
 .h2_text {
     font-size: 70px;
     font-weight: 600;
-    margin: 0;
     margin-left: 97px;
     width: 100%;
+    height: auto;
 }
 
 .h3_text {
     font-size: 45px;
     font-weight: 600;
-    margin: 0;
     margin-left: 97px;
 
     width: 100%;
+    height: auto;
 }
 
 .h2_text h2 {
