@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500;600&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -78,4 +78,14 @@ body {
 }
 .activeLanguage {
     padding-right: 10px;
+}
+.heading h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180px;
+    line-height: 216px;
+    color:#121212;
+    text-shadow: -1px -1px 0 #FF8B00, 1px -1px 0 #FF8B00, -1px 1px 0 #FF8B00, 1px 1px 0 #FF8B00;
+    transform: rotate(-90deg);
 }

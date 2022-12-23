@@ -1,3 +1,4 @@
+import About from "./about/About";
 import Header from "./header/Header";
 import LandingPage from "./landing_page/landing_page"
 function App() {
