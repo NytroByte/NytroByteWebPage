@@ -2,7 +2,7 @@ function LandingPage() {
     return (
         <div className="landingpage_wrapper">
             <div className="headertext">
-                <h2>Lorem ipsum sussy</h2>
+                <h2>The future is now</h2>
                 <h3>NytroByte?</h3>
                 <button className="about_button" type="button">here</button>
             </div>
