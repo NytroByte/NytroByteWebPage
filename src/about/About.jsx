@@ -1,9 +1,11 @@
 import image from "../media/images/imag1.png"
+import image1 from "../media/images/formula.png";
+import image2 from "../media/images/drift.png";
 function About() {
     return(
         <div className="AboutSectionWrapper">
             <div className="row">
-                <div className="col headingCol">
+                <div className="col">
                     <div className="headingContainer">
                         <div className="heading">
                             <h1>about</h1>
@@ -20,14 +22,22 @@ function About() {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="itemCol">
-                        <div className="designContainer">
-                            <div className="contHeader">
+                    <div className="designContainer">
+                        <img src={image1}/>
+                        <div className="contHeader">
+                            design
+                        </div>
+                        <div className="contDescription">
 
-                            </div>
-                            <div className="contDescription">
-                                
-                            </div>
+                        </div>
+                    </div>
+                    <div className="corrContainer">
+                        <img src={image2}/>
+                        <div className="contHeader">
+                            correcting
+                        </div>
+                        <div className="contDescription">
+
                         </div>
                     </div>
                 </div>

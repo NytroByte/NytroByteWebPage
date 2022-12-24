@@ -100,13 +100,15 @@ body {
     position: relative;
 }
 
-.buildingContainer img {
+.col img {
     height: 100%;
-    width: 120%;
+    width: 100%;
     overflow: hidden;
     object-fit: cover;
     border-radius: 30px;
-    
+}
+.buildingContainer img {
+    width: 120%;
 }
 .contHeader {
     font-family: 'Poppins';
@@ -114,18 +116,34 @@ body {
     font-weight: 600;
     position: relative;
     font-size: 50px;
-    top: -50%;
+    top: -55%;
     text-align: center;
     color: white;
 }
-.headingCol {
+.col {
     display: flex;
     height: 25vw;
+    padding: 0px 0 20px 0;
 }
 .headingContainer {
     display: flex;
     align-items: center;
 
+}
+.designContainer {
+    width: 50%;
+    padding-right: 20px;
+}
+.designContainer img {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+.corrContainer img {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+.corrContainer {
+    width: 50%;
 }
 /* Landing page */
 
