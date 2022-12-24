@@ -8,11 +8,15 @@ function Projects() {
         <div className="projects_wrapper">
             <h1 className="projects_header">Our clientele</h1>
             <div className="clientele">
-                <div className="rectangle1">
-                    <img id="Mlogo1" src={Mlogo1}/>
-                    <img id="Mlogo2" src={Mlogo2}/>
+                <div className="rectangle">
+                    <div className="logoContainer">
+                        <img id="Mlogo1" src={Mlogo1}/>
+                    </div>
+                    <div className="picContainer">
+                        <img id="Mlogo2" src={Mlogo2}/>
+                    </div>
                 </div>
-                <div className="rectangle2">
+                <div className="rectangle white">
                     <img src={logo}/>
                 </div>
             </div>
