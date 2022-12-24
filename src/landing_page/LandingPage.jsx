@@ -7,7 +7,7 @@ function LandingPage() {
                 <button className="about_button" type="button">here</button>
             </div>
             <div className="demotext">
-                <h1>The change is here</h1>
+                <h1 id="whiteHero">The change is here</h1>
                 <h2>nytrobyte</h2>
             </div>
         </div>

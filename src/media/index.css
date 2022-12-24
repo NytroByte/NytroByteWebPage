@@ -96,12 +96,17 @@ body {
 }
 .buildingContainer {
     width: 100%;
+    overflow: hidden;
+    position: relative;
 }
+
 .buildingContainer img {
     height: 100%;
-    width: 100%;
+    width: 120%;
+    overflow: hidden;
     object-fit: cover;
     border-radius: 30px;
+    
 }
 .contHeader {
     font-family: 'Poppins';
@@ -171,29 +176,31 @@ h1, h2, h3 {
 
 .demotext {
     overflow: hidden;
-    display: flex;
+    position: relative;
+    height: 100%;
     width: 100%;
 }
 
 .demotext h1 {
     font-family: 'Bebas Neue';
-    color:#121212;
+    color: #121212;
     -webkit-text-stroke: 1px #FFFFFF;
-    font-size: 180px;
-    text-overflow: clip;
-    transform: rotate(45deg);
-    z-index: 50000000;
+    font-size: 200px;
     position: absolute;
+    transform: rotate(45deg);
+    overflow: hidden;
+    top: 277px;
+    right: -83px;
+    white-space: nowrap;
 }
 
 .demotext h2 {
     font-family: 'Bebas Neue';
-    color:#121212;
+    color: #121212;
     -webkit-text-stroke: 1px #FF8B00;
     font-size: 180px;
     transform: rotate(45deg);
-    overflow: hidden;
-
-
+    top: 522px;
     position: absolute;
+    right: 215px;
 }
