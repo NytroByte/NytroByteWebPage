@@ -94,60 +94,7 @@ body {
     width: 100%;
     justify-content: center;
 }
-.buildingContainer {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-}
 
-.col img {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 30px;
-}
-.buildingContainer img {
-    width: 120%;
-}
-.contHeader {
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    position: relative;
-    font-size: 50px;
-    top: -55%;
-    text-align: center;
-    color: white;
-}
-.col {
-    display: flex;
-    height: 25vw;
-    padding: 0px 0 20px 0;
-}
-.headingContainer {
-    display: flex;
-    align-items: center;
-
-}
-.designContainer {
-    width: 50%;
-    padding-right: 20px;
-    cursor: pointer;
-}
-.designContainer img {
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-}
-.corrContainer img {
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
-.corrContainer {
-    width: 50%;
-    cursor: pointer;
-}
 /* Landing page */
 
 .landingpage_wrapper {
@@ -235,23 +182,84 @@ h1, h2, h3 {
 /* Landing page animations */
 
 
+/* About sectio */
+
+.AboutSectionWrapper {
+    display: flex;
+    overflow: hidden;
+}
+
+.design_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 90px;
+    line-height: 135px;
+    color: #FF8B00;
+}
+
+.design_header:before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 578px;
+    position: relative;
+    top: 50%;
+    left: -40px;
+    background: #FFFFFF;
+    float: left;
+
+}
+
+
 /* Projects section */
 
 .projects_wrapper {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
 }
 .projects_header {
-    font-family: 'Bebas Neue';
-    color: #121212;
-    -webkit-text-stroke: 1px #FFFFFF;
-    font-size: 180px;
+    font-family: 'Poppins';
+    color: #FF8B00;
+    font-size: 90px;
     line-height: 216px;
+    font-weight: 600;
     width: 100%;
-    text-align: center;
-
-    padding-right: 52px;
+    justify-content: center;
+    display: flex;
 }
+
+
+.projects_header::before {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 578px;
+    position: relative;
+    top: 50%;
+    left: -40px;
+    background: #FFFFFF;
+}
+
+
+.projects_header:after {
+    content: " ";
+    display: block;
+    height: 2px;
+    width: 578px;
+    position: relative;
+    top: 50%;
+    right: -40px;
+    background: #FFFFFF;
+    float: right;
+}
+
 
 .clientele {
     display: flex;
@@ -273,29 +281,6 @@ h1, h2, h3 {
     background-color: white;
 }
 
-
-.projects_header::before {
-    content:" ";
-    display: block;
-    height: 2px;
-    width: 130px;
-    position: relative;
-    top: 50%;
-    left: 0;
-    background: #FFFFFF;
-}
-
-.projects_header:after {
-    content:" ";
-    display: block;
-    height: 2px;
-    width: 130px;
-    position: relative;
-    top: 50%;
-    right: 0;
-    background: #FFFFFF;
-    float: right;
-}
 
 
 
