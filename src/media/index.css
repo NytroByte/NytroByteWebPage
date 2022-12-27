@@ -237,6 +237,22 @@ h1, h2, h3 {
 
 /* Projects section */
 
+.projects_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+.projects_header {
+    font-family: 'Bebas Neue';
+    color: #121212;
+    -webkit-text-stroke: 1px #FFFFFF;
+    font-size: 180px;
+    line-height: 216px;
+    width: 100%;
+    text-align: center;
+
+    padding-right: 52px;
+}
+
 .clientele {
     display: flex;
     width: 100%;
@@ -256,16 +272,32 @@ h1, h2, h3 {
 .rectangle.white {
     background-color: white;
 }
-.projects_header {
-    font-family: 'Bebas Neue';
-    color: #121212;
-    -webkit-text-stroke: 1px #FFFFFF;
-    font-size: 180px;
-    line-height: 216px;
-    float: right;
 
-    padding-right: 52px;
+
+.projects_header::before {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: relative;
+    top: 50%;
+    left: 0;
+    background: #FFFFFF;
 }
+
+.projects_header:after {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 130px;
+    position: relative;
+    top: 50%;
+    right: 0;
+    background: #FFFFFF;
+    float: right;
+}
+
+
 
 
 /* Contacts */
@@ -277,6 +309,7 @@ h1, h2, h3 {
     color: white;
     align-items: center;
     justify-content:space-between;
+    overflow: hidden;
 }
 .contacts_header {
     font-family: 'Bebas Neue';
@@ -376,10 +409,13 @@ input::placeholder {
 /* Contacts image */
 
 .picture {
-    width: 844px;
-    height: inherit;
+    /* width: 844px;
+    height: inherit; */
+    width: 1508px;
+    height: 753px;
     position: relative;
     float: right;
+    margin-left: 34px;
 }
 
 .picture img {

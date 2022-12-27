@@ -1,4 +1,4 @@
-import image from "../media/images/image2.jpg";
+import image from "../media/images/world_dots.png";
 function Contacts() {
     return (
         <div className="contacts_wrapper">
