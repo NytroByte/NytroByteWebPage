@@ -264,57 +264,6 @@ h1, h2, h3 {
     padding-right: 52px;
 }
 
-.rectangle1 {
-    width: 893px;
-    height: 418px;
-    background: #000;
-    border-radius: 30px;
-
-    position: absolute;
-    margin-top: 243px;
-    margin-left: 42px;
-
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-}
-
-
-#Mlogo1 {
-    width: 288px;
-    height: 274px;  
-    position: absolute;
-    margin-left: 54px;
-}
-
-#Mlogo2 {
-    width: 439px;
-    height: 376px;
-    position: absolute;
-    left: 426px;
-}
-
-.rectangle2 {
-    width: 893px;
-    height: 418px;
-    background: #FFFFFF;
-    border-radius: 30px;
-
-    position: absolute;
-    margin-top: 243px;
-    right: 42px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
-
-.rectangle2 img {
-    width: 564px;
-    height: 311px;
-}
-
 .footer {
     font-family: 'Bebas Neue';
     font-size: 36px;
