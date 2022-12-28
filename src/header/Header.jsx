@@ -1,5 +1,6 @@
 import useScrollListener from "./useScrollListener";
 import React, {useState, useEffect} from "react";
+import logo from "../media/images/logo.jpg"
 function Header() {
     const [navClassList, setNavClassList] = useState([]);
     const scroll = useScrollListener();
@@ -16,6 +17,9 @@ function Header() {
     return(
         <div className={`header ${navClassList.join(" ")}`}>
             <div className="headerWrapper">
+                <div className="headerLogo">
+                    <img src={logo}/>
+                </div>
                 <div className="headerLinks">
                     <div className="link">
                         <a>about</a>
@@ -27,23 +31,6 @@ function Header() {
                         <a>contact</a>
                     </div>
                 </div>
-                {/* <div className={`headerLanguageSelector ${showLang ? "open": ""}`} onClick={handleLanguageOpen}>
-                    <div className="headerLanguageWrapper">
-                        <div className="activeLanguage">
-                            lv
-                        </div>
-                        <div className="triangle"><a>></a></div>
-                        <div className="languageList">
-                            <div className={`languageDropdown`} >
-                                <div className="languageOptions">
-                                    <div className="option">
-                                        <a>EN</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     )

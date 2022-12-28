@@ -6,7 +6,7 @@ import Mlogo2 from "../media/images/mlogo1.png"
 function Projects() {
     return (
         <div className="projects_wrapper">
-            <h1 className="projects_header">Our clientele</h1>
+            <h1 className="projects_header">Our projects</h1>
             <div className="clientele">
                 <div className="rectangle">
                     <div className="logoContainer">
