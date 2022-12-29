@@ -4,19 +4,13 @@ import LandingPage from "./landing_page/LandingPage"
 import Projects from "./projects/Projects";
 import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
-import React, { useState, useEffect } from 'react';
+import { motion } from "framer-motion";
 
 function App() {
-  const [loading, setLoading] = useState(false);
-
-  useEffect(() => {
-    setLoading(true);
-    setTimeout(() => {
-      setLoading(false);
-    }, 200);
-  }, []);
   return (
-    <div className={`App ${loading ? "" : "visible"}`}>
+    <motion.div style={{opacity: 0}} animate={{
+      opacity: 1, transition: {duration: 1.2}
+    }}>
       <div>
         <Header/>
         <LandingPage/>
@@ -25,7 +19,7 @@ function App() {
         <Contacts/>
         <Footer/>
       </div>
-    </div>
+    </motion.div>
   );
 }
 
