@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/NytroByteWebPage/static/css/main.eaf0f395.css",
-    "main.js": "/NytroByteWebPage/static/js/main.1c8e9a3d.js",
-    "static/media/form.png": "/NytroByteWebPage/static/media/form.c1a00ce0573057abfa1a.png",
-    "static/media/Redzes_pasaule_logo.png": "/NytroByteWebPage/static/media/Redzes_pasaule_logo.ec0a15ce7827bc59331d.png",
-    "static/media/mlogo1.png": "/NytroByteWebPage/static/media/mlogo1.4e2488c27818270e7174.png",
-    "static/media/design_image.jpg": "/NytroByteWebPage/static/media/design_image.cc6dcdf6ba3a406ce5ce.jpg",
-    "static/media/world_dots.png": "/NytroByteWebPage/static/media/world_dots.af1cfa4e19c1448bd6e0.png",
-    "static/media/image.png": "/NytroByteWebPage/static/media/image.c1593ecb2fbb6af355d4.png",
-    "index.html": "/NytroByteWebPage/index.html",
-    "main.eaf0f395.css.map": "/NytroByteWebPage/static/css/main.eaf0f395.css.map",
-    "main.1c8e9a3d.js.map": "/NytroByteWebPage/static/js/main.1c8e9a3d.js.map"
+    "main.css": "/static/css/main.26362a77.css",
+    "main.js": "/static/js/main.de146313.js",
+    "static/media/form.png": "/static/media/form.c1a00ce0573057abfa1a.png",
+    "static/media/Redzes_pasaule_logo.png": "/static/media/Redzes_pasaule_logo.ec0a15ce7827bc59331d.png",
+    "static/media/mlogo1.png": "/static/media/mlogo1.4e2488c27818270e7174.png",
+    "static/media/design_image.jpg": "/static/media/design_image.cc6dcdf6ba3a406ce5ce.jpg",
+    "static/media/world_dots.png": "/static/media/world_dots.af1cfa4e19c1448bd6e0.png",
+    "static/media/image.png": "/static/media/image.c1593ecb2fbb6af355d4.png",
+    "index.html": "/index.html",
+    "main.26362a77.css.map": "/static/css/main.26362a77.css.map",
+    "main.de146313.js.map": "/static/js/main.de146313.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaf0f395.css",
-    "static/js/main.1c8e9a3d.js"
+    "static/css/main.26362a77.css",
+    "static/js/main.de146313.js"
   ]
 }
