@@ -182,11 +182,18 @@ body {
     line-height: 0px;
 }
 
-/* About sectio */
+/* About section */
 
 .AboutSectionWrapper {
     display: flex;
     overflow: hidden;
+}
+
+.design_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    /* height: 100vh; */
 }
 
 .design_header {
@@ -199,6 +206,8 @@ body {
     font-weight: 600;
     font-size: 90px;
     line-height: 135px;
+    position: relative;
+    right: -143px;
     color: #FF8B00;
 }
 
@@ -206,14 +215,90 @@ body {
     content: " ";
     display: block;
     height: 2px;
-    width: 578px;
+    width: 1082px;
     position: relative;
-    top: 50%;
-    left: -40px;
+    left: -290px;
     background: #FFFFFF;
     float: left;
 
 }
+
+.design_img {
+    width: 836px;
+    height: 679px;
+    margin-top: -42px;
+
+    overflow: hidden;
+    position: relative;
+    margin-left: 145px;
+    background: #FF8B00;
+    mix-blend-mode: overlay;
+    float: left;
+}
+
+
+.design_img img {   
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+    opacity: 0.4;
+}
+
+.design_ul {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 90px;
+    display: flex;
+
+    position: relative;
+}
+
+.design_ul ul {
+    right: -68px;
+    top: -103px;
+    list-style: none;
+    position: relative;
+}
+
+
+li::before {
+    content: "• ";
+    color: #FF8B00;
+}
+
+.design_text {
+    width: 766px;
+    height: 400px;
+    position: relative;
+    float: right;
+    left: 115px;
+    top: -130px;
+}
+
+.design_text p {
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 160%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+  
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
 
 
 /* Projects section */
