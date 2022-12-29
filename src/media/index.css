@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;500;600&display=swap');
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #121212;
 }
+
 .App.visible {
     animation: fadeInAnimation ease 2s;
     animation-iteration-count: 1;
@@ -164,11 +165,21 @@ body {
     position: absolute;
     z-index: -10;
 }
-.widthHeroContainer {
-    position: absolute;
-}
 .heightHeroContainer {
     position: absolute;
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 45px;
+    transform: translate(43.5vw, 1vh);
+}
+.widthHeroContainer {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    transform: translate(0, 28vh);
+    font-weight: 100;
+    font-size: 30px;
+    line-height: 0px;
 }
 
 /* About sectio */
