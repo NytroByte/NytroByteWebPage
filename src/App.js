@@ -14,9 +14,9 @@ function App() {
       <div>
         <Header/>
         <LandingPage/>
-        <About/>
-        <Projects/>
-        <Contacts/>
+        <div className="globalWrapper">
+          <About/>
+        </div>
         <Footer/>
       </div>
     </motion.div>
