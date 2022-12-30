@@ -14,7 +14,9 @@ function App() {
       <div>
         <Header/>
         <LandingPage/>
-        <About/>
+        <div className="globalWrapper">
+          <About/>
+        </div>
         <Projects/>
         <Contacts/>
         <Footer/>

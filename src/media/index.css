@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;500;600&family=Ubuntu+Mono&display=swap');
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background-color: #121212;
+}
+.globalWrapper {
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
 }
 @keyframes fadeInAnimation {
     0% {
@@ -180,8 +184,8 @@ body {
 /* About section */
 
 .AboutSectionWrapper {
-    display: flex;
     overflow: hidden;
+
 }
 
 .design_container {
@@ -195,29 +199,28 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 40%;
     overflow: hidden;
     font-family: 'Poppins';
     font-weight: 600;
-    font-size: 90px;
+    font-size: 70px;
     line-height: 135px;
     position: relative;
     right: -143px;
     color: #FF8B00;
 }
 
-.design_header:before {
-    content: " ";
+.desLine {
     display: block;
     height: 2px;
-    width: 1082px;
-    position: relative;
-    left: -290px;
     background: #FFFFFF;
-    float: left;
-
+    width: 0%;
 }
-
+.desHeader {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
 .design_img {
     width: 836px;
     height: 679px;
@@ -225,7 +228,6 @@ body {
 
     overflow: hidden;
     position: relative;
-    margin-left: 145px;
     background: #FF8B00;
     mix-blend-mode: overlay;
     float: left;
@@ -386,8 +388,69 @@ li::before {
     top: -133px;
     position: relative;
 }
-
-
+.devHead {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 135px;
+    color: #FF8B00;
+}
+.devLine {
+    display: block;
+    height: 1.5px;
+    background: #929292;
+    width: 0%;
+}
+.orng {
+    color: #FF8B00;
+}
+.devHeader {
+    padding-right: 20px;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #929292;
+}
+.mainRow {
+    border-radius: 30px;
+    display: flex;
+    background-color: #1E1E1E;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+.fileHeader {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.codeDec {
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 160%;
+}
+.devCol {
+    width: 50%;
+}
+.devCol.comment {
+    display: flex;
+    align-self: center;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 154%;
+    color: #929292;
+}
+.devComment {
+    display: flex;
+    width: 70%;
+}
 /* Contacts form */
 
 .contacts_form {
@@ -425,6 +488,7 @@ input::placeholder {
     text-align: center;
     cursor: pointer;
     transition: 300ms ease-in-out;
+    padding: 10px 20px;
 }
 .submitbtn:hover {
     background-color: #cf7200;
