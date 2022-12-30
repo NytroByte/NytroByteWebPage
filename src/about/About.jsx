@@ -41,22 +41,24 @@ function About() {
                     className="desLine"></motion.div>
                     <h1 className="design_header">Design</h1>
                 </div>
-                <div className="design_img">
-                    <img src={logo}/>
-                </div>
-                <div className="column">
-                    <div className="row">
-                        <div className="design_ul">
-                            <ul>
-                                <li>Package design</li>
-                                <li>Website design</li>
-                                <li>Some design</li>
-                            </ul>
-                        </div>
+                <div className="row">
+                    <div className="collumn">
+                        <div className="design_img">
+                            <img src={logo}/>
+                        </div>                        
                     </div>
-                    <div className="row">
-                        <div className="design_text">
-                            <p>Our web design process is simple and straightforward. We begin by working with you to understand your goals, target audience, and overall brand identity. From there, we create a custom design that reflects your unique style and communicates your message effectively.</p>
+                    <div className="collumn par">
+                        <div className="background_collumn">
+                            <div className="design_ul">
+                                <ul className="listName">
+                                    <li>Package design</li>
+                                    <li>Website design</li>
+                                    <li>Some design</li>
+                                </ul>
+                            </div>
+                            <div className="design_text">
+                                <p>Our web design process is simple and straightforward. We begin by working with you to understand your goals, target audience, and overall brand identity. From there, we create a custom design that reflects your unique style and communicates your message effectively.</p>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -185,7 +185,8 @@ body {
 
 .AboutSectionWrapper {
     overflow: hidden;
-
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .design_container {
@@ -224,7 +225,6 @@ body {
 .design_img {
     width: 740px;
     height: 639px;
-    margin-top: -42px;
 
     overflow: hidden;
     position: relative;
@@ -253,10 +253,13 @@ body {
 }
 
 .design_ul ul {
-    right: -68px;
-    top: -54px;
     list-style: none;
     position: relative;
+}
+
+.listName {
+    margin: 0;
+    padding-left: 25px;
 }
 
 
@@ -266,34 +269,46 @@ li::before {
 }
 
 .design_text {
-    width: 623px;
-    height: 400px;
+    width: 100%;
+    height: inherit;
+    display: flex;
     position: relative;
-    float: right;
-    left: 115px;
-    top: -69px;
 }
 
 .design_text p {
     color: white;
     font-family: 'Poppins';
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 28px;
     line-height: 160%;
+    width: 523px;
+    padding-left: 25px;
 }
 
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-  
-.column {
+.collumn {
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
+    width: 100%;
+}
+
+.collumn.par {
+    padding-left: 235px;
+}
+
+.background_collumn {
+    background-color: #1E1E1E;
+    border-radius: 30px;
+    height: -webkit-fill-available;
+    width: 600px;
+    padding: 10px;
+}
+  
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
 }
 
 
