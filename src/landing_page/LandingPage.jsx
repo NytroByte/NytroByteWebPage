@@ -23,7 +23,7 @@ function LandingPage() {
                         We are <div className="orngText">NytroByte</div>
                     </div>
                     <div className="landingMainTextDescription">
-                        Lorem ipsum dolor sit amet
+                    a full-service web design and development agency
                     </div>
                 </div>
                 <div className="heightHeroContainer">
