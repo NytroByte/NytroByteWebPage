@@ -149,7 +149,7 @@ body {
 .landingMainTextDescription {
     width: 100%;
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 25px;
 }
 .background img {
     height: 100%;
@@ -222,8 +222,8 @@ body {
     align-items: center;
 }
 .design_img {
-    width: 836px;
-    height: 679px;
+    width: 740px;
+    height: 639px;
     margin-top: -42px;
 
     overflow: hidden;
@@ -245,8 +245,8 @@ body {
     color: white;
     font-family: 'Poppins';
     font-weight: 600;
-    font-size: 60px;
-    line-height: 90px;
+    font-size: 40px;
+    line-height: 70px;
     display: flex;
 
     position: relative;
@@ -254,7 +254,7 @@ body {
 
 .design_ul ul {
     right: -68px;
-    top: -103px;
+    top: -54px;
     list-style: none;
     position: relative;
 }
@@ -266,19 +266,19 @@ li::before {
 }
 
 .design_text {
-    width: 766px;
+    width: 623px;
     height: 400px;
     position: relative;
     float: right;
     left: 115px;
-    top: -130px;
+    top: -69px;
 }
 
 .design_text p {
     color: white;
     font-family: 'Poppins';
     font-weight: 400;
-    font-size: 23px;
+    font-size: 28px;
     line-height: 160%;
 }
 
@@ -345,13 +345,16 @@ li::before {
 
 .clientele {
     display: flex;
+    justify-content: center;
     width: 100%;
+    position: relative;
+    top: -50px;
 }
 .rectangle {
     margin: 20px;
     background-color: black;
     display: flex;
-    width: 50%;
+    width: 40%;
     justify-content: center;
     align-items: center;
     border-radius: 30px;
@@ -468,9 +471,8 @@ input {
     border: 0;
     border-bottom: 1px solid #FF8B00;
     width: 500px;
-    font-size: 30px;
-    /* line-height: 45px; */
-    padding-top: 40px;
+    font-size: 30px; 
+    padding: 15px;
 }
 input::placeholder {
     color: white;

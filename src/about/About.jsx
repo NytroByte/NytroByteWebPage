@@ -48,15 +48,15 @@ function About() {
                     <div className="row">
                         <div className="design_ul">
                             <ul>
-                                <li>Coffee</li>
-                                <li>Tea</li>
-                                <li>Milk</li>
+                                <li>Package design</li>
+                                <li>Website design</li>
+                                <li>Some design</li>
                             </ul>
                         </div>
                     </div>
                     <div className="row">
                         <div className="design_text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ultricies ligula nec ullamcorper accumsan. Sed tristique augue eget leo feugiat congue. Aenean ac augue sit amet erat lobortis porttitor sed in ipsum. Nullam lobortis ultricies tortor, id accumsan diam tempor a. Praesent mollis dictum eros vitae venenatis. Sed tincidunt tortor in tortor efficitur, in scelerisque diam malesuada. Aliquam vel velit porta, euismod diam eu, rhoncus arcu. Vestibulum pharetra facilisis tellus egestas pulvinar. Etiam convallis nulla id tellus sollicitudin, quis fermentum ipsum ultrices.</p>
+                            <p>Our web design process is simple and straightforward. We begin by working with you to understand your goals, target audience, and overall brand identity. From there, we create a custom design that reflects your unique style and communicates your message effectively.</p>
                         </div>
                     </div>
                 </div>
