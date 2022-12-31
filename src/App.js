@@ -17,6 +17,7 @@ function App() {
         <div className="globalWrapper">
           <About/>
         </div>
+        <Projects/>
         <Footer/>
       </div>
     </motion.div>
