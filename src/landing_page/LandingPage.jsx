@@ -1,6 +1,6 @@
 import landingBackground from "../media/images/form.png"
 import {useLayoutEffect, useRef, useState} from 'react';
-import { motion } from "framer-motion";
+import { motion, useScroll } from "framer-motion";
 function LandingPage() {
     const ref = useRef(null);
 
@@ -13,8 +13,10 @@ function LandingPage() {
     }, []);
 
     return (
+        <div>
         <div className="landingPageWrapper">
             <div className="background"><motion.img animate={{
+                bottom: 10,
                 transition: {duration: 1.8}
             }} src={landingBackground}/></div>
             <div className="landingTextHeroContainer">
@@ -63,6 +65,8 @@ function LandingPage() {
             <div className="scrollDown">
                 <a><span></span><span></span><span></span></a>
             </div>
+            <motion.div className="decor"></motion.div>
+        </div>
         </div>
     )
 

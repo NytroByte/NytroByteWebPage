@@ -50,6 +50,12 @@ body {
 .nav-bar--hidden {
     transform: translateY(-100%);
 }
+.decor {
+    border-bottom: 11vh solid #121212;
+    border-right: 80vw solid transparent;
+    position: absolute;
+    top: 90vh;
+}
 .headerWrapper {
     width: 100%;
     padding: 20px 20px;
@@ -152,13 +158,14 @@ body {
     font-size: 25px;
 }
 .background img {
-    height: 100%;
+    height: 101%;
     object-fit: cover;
     width: 100%;
     opacity: 0.1;
     position: absolute;
     z-index: -10;
 }
+
 .heightHeroContainer {
     display: flex;
     text-align: center;
