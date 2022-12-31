@@ -14,6 +14,7 @@ function Header() {
   
       setNavClassList(_classList);
     }, [scroll.y, scroll.lastY]);
+
     return(
         <div className={`header ${navClassList.join(" ")}`}>
             <div className="headerWrapper">

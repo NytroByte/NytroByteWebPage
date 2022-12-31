@@ -757,6 +757,28 @@ textarea:focus, input:focus{
         margin-left: 7.5vw;
         margin-right: 7.5vw;
     }
+    .landingTextHeroContainer {
+        padding: 40px;
+    }
+    .heroTextBox {
+        width: 60vw;
+    }
+    .landingMainTextDescription {
+            width: 100%;
+            line-height: 6vw;
+            font-weight: 500;
+            font-size: 4vw;
+    }
+    .landingPageWrapper {
+        line-height: 12vw;
+        font-size: 8vw;
+    }
+    .widthHeroContainer {
+        font-size: 4vh;
+    }
+    .heightHeroContainer {
+        font-size: 4vh;
+    }
 }
 
 
