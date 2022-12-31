@@ -4,16 +4,15 @@ import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
 
 function Contacts() {
-    
     return (
         <div className="contactsWrapper">
             <h1 className="contactsHeader">Contact us</h1>
             <div className="contactsForm">
-                <div className="inputFields">
+                <form className="inputFields">
                     <motion.input type="text" placeholder="full name" /><br></br>
                     <motion.input type="text" placeholder="email" /><br></br>
                     <motion.input type="text" placeholder="question" /><br></br>
-                </div>
+                </form>
                 <a className="submitbtn">send</a>
                 <div className="socials">
                     <div className="instagram">
