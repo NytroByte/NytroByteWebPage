@@ -154,8 +154,9 @@ body {
 }
 .landingMainTextDescription {
     width: 100%;
+    line-height: 3vw;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 2vw;
 }
 .background img {
     height: 101%;
@@ -615,9 +616,11 @@ li::before {
     .devCol {
         width: 100%;
     }
-
+    .heightHeroContainer {
+        display: none;
+    }
     .fileHeader {
-        width: 60%;
+        width: 80%;
     }
 
     .codeDec {
