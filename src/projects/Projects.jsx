@@ -12,9 +12,9 @@ function Projects() {
                     <div className="logoContainer">
                         <img id="Mlogo1" src={Mlogo1}/>
                     </div>
-                    <div className="picContainer">
+                    {/* <div className="picContainer">
                         <img id="Mlogo2" src={Mlogo2}/>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="rectangle white">
                     <img src={logo}/>

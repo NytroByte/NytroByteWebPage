@@ -21,6 +21,7 @@ function App() {
         <div className="globalWrapper custom">
           <Contacts/>
         </div>
+        <Projects/>
         <Footer/>
       </div>
     </motion.div>

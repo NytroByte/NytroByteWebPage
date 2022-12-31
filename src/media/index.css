@@ -397,6 +397,63 @@ li::before {
 .rectangle.white {
     background-color: white;
 }
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (max-width: 1080px) {
+
+    .projects_header {
+        font-size: 35px;
+    }
+    .projects_header::before, .projects_header::after {
+        display: none;
+    }
+
+    .clientele {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rectangle {
+        border-radius: 15px;
+        margin: 10px;
+        width: 50%;
+    }
+
+    .rectangle img {
+        width: 60%;
+    }
+}
+
+
+
+
+
+/* Contacts */
+
+.contacts_wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content:space-between;
+    overflow: hidden;
+}
+.contacts_header {
+    font-family: 'Bebas Neue';
+    color: #121212;
+    -webkit-text-stroke: 1px #FF8B00;
+    font-size: 180px;
+    transform: rotate(-90deg);
+    left: -168px;
+    top: -133px;
+    position: relative;
+}
 .devHead {
     font-family: 'Poppins';
     font-style: normal;
@@ -460,6 +517,138 @@ li::before {
     display: flex;
     width: 70%;
 }
+
+@media (max-width: 1080px) {
+    .mainRow {
+        flex-direction: column;
+        padding-left: 15px;
+    }
+    .devHead {
+        font-size: 30px;
+    }
+
+    .devCol {
+        width: 100%;
+    }
+
+    .fileHeader {
+        width: 60%;
+    }
+
+    .codeDec {
+        font-size: 22px;
+    }
+
+    .devCol.comment {
+        font-size: 20px;
+    }
+
+    .devComment {
+        width: 90%;
+    }
+}
+
+/* Contacts form */
+
+.contacts_form {
+    width: inherit;
+}
+
+.contacts_form form {
+    position: relative;
+    margin-left: -235px;
+}
+input {
+    all: unset;
+    font-family: 'Poppins';
+    background-color: #121212;
+    border: 0;
+    border-bottom: 1px solid #FF8B00;
+    width: 500px;
+    font-size: 30px; 
+    padding: 15px;
+}
+input::placeholder {
+    color: white;
+
+    font-size: 30px;
+}
+.submitbtn {
+    background-color: #FF8B00;
+    color: white;
+    border: 0;
+    border-radius: 45px;
+    width: 364px;
+    height: auto;
+    margin-top: 63px;
+    text-align: center;
+    cursor: pointer;
+    transition: 300ms ease-in-out;
+    padding: 10px 20px;
+}
+.submitbtn:hover {
+    background-color: #cf7200;
+}
+
+/* Socials */
+
+.socials {
+    margin-top: 78px;
+}
+
+.instagram, .github {
+    display: flex;
+    align-items: center;
+    margin-left: -235px;
+    cursor: pointer;
+    transition: 250ms ease-in-out;
+}
+
+.instagram:hover, .github:hover {
+    color: #cf7200;
+}
+.github {
+    margin-top: 86px;
+}
+
+.instagram svg {
+    width: 70px;
+    height: 70px;
+}
+
+.github svg {
+    width: 70px;
+    height: 70px;
+}
+
+
+.instagram h1, .github h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+
+    margin-left: 19px;
+}
+
+/* Contacts image */
+
+.picture {
+    /* width: 844px;
+    height: inherit; */
+    width: 1508px;
+    height: 753px;
+    position: relative;
+    float: right;
+    margin-left: 34px;
+}
+
+.picture img {
+    width: inherit;
+    height: inherit;
+    object-fit: cover;
+}
+
 
 /* Footer */
 
