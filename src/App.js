@@ -17,6 +17,9 @@ function App() {
         <div className="globalWrapper">
           <About/>
         </div>
+        <div className="globalWrapper custom">
+          <Contacts/>
+        </div>
         <Projects/>
         <Footer/>
       </div>

@@ -1,17 +1,20 @@
 import image from "../media/images/world_dots.png";
+import { motion, useAnimation } from "framer-motion";
+import { useInView } from "react-intersection-observer";
+import { useEffect } from "react";
+
 function Contacts() {
+    
     return (
-        <div className="contacts_wrapper">
-            <h1 className="contacts_header">contacts</h1>
-            <div className="contacts_form">
-                <form>
-                    <div className="inputfields">
-                        <input type="text" placeholder="full name" /><br></br>
-                        <input type="text" placeholder="email" /><br></br>
-                        <input type="text" placeholder="question" /><br></br>
-                    </div>
-                    <input type="submit" className="submitbtn" value="send"/>   
-                </form>
+        <div className="contactsWrapper">
+            <h1 className="contactsHeader">Contact us</h1>
+            <div className="contactsForm">
+                <div className="inputFields">
+                    <motion.input type="text" placeholder="full name" /><br></br>
+                    <motion.input type="text" placeholder="email" /><br></br>
+                    <motion.input type="text" placeholder="question" /><br></br>
+                </div>
+                <a className="submitbtn">send</a>
                 <div className="socials">
                     <div className="instagram">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
