@@ -16,6 +16,7 @@ function LandingPage() {
         <div>
         <div className="landingPageWrapper">
             <div className="background"><motion.img animate={{
+                bottom: 10,
                 transition: {duration: 1.8}
             }} src={landingBackground}/></div>
             <div className="landingTextHeroContainer">
