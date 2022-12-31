@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.31e64619.css",
+    "main.css": "/static/css/main.ae6cb14e.css",
     "main.js": "/static/js/main.8ee917a8.js",
     "static/media/form.png": "/static/media/form.c1a00ce0573057abfa1a.png",
     "static/media/Redzes_pasaule_logo.png": "/static/media/Redzes_pasaule_logo.ec0a15ce7827bc59331d.png",
@@ -9,11 +9,11 @@
     "static/media/world_dots.png": "/static/media/world_dots.af1cfa4e19c1448bd6e0.png",
     "static/media/image.png": "/static/media/image.c1593ecb2fbb6af355d4.png",
     "index.html": "/index.html",
-    "main.31e64619.css.map": "/static/css/main.31e64619.css.map",
+    "main.ae6cb14e.css.map": "/static/css/main.ae6cb14e.css.map",
     "main.8ee917a8.js.map": "/static/js/main.8ee917a8.js.map"
   },
   "entrypoints": [
-    "static/css/main.31e64619.css",
+    "static/css/main.ae6cb14e.css",
     "static/js/main.8ee917a8.js"
   ]
 }
