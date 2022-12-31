@@ -329,6 +329,86 @@ li::before {
     width: 100%;
 }
 
+@media (max-width: 1774px) {
+    .design_header {
+        font-size: 45px;
+    }
+
+
+    .background_collumn {
+        width: 70%;
+    }
+
+    .design_img {
+        width: 90%;
+        height: 600px;
+    }
+
+    .design_img img {
+        width: 100%;
+        height: 600px;
+    }
+
+    .design_text p {
+        font-size: 20px;
+    }
+
+
+    .design_ul {
+        font-size: 30px;
+        line-height: 70px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .collumn {
+        width: 100%;
+    }
+
+    .design_text p {
+        font-size: 15px;
+    }
+
+    .design_ul {
+        font-size: 25px;
+        line-height: 60px;
+    }
+
+    .background_collumn {
+        padding: 3px;
+        width: 100%;
+    }
+
+    .design_img {
+        width: 100%;
+        height: inherit;
+    }
+
+    .design_img img {
+        width: 100%;
+        height: 336px;
+    }
+
+    .design_header {
+        font-size: 30px;
+        margin-left: -50px;
+    }
+
+    .desHeader {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .desLine {
+        display: none;
+    }
+}
+
 
 
 /* Projects section */
@@ -405,6 +485,13 @@ li::before {
 }
 
 
+@media (max-width: 1774px) {
+    .projects_header::before, .projects_header::after {
+        width: 300px;
+    }
+}
+
+
 @media (max-width: 1080px) {
 
     .projects_header {
@@ -421,12 +508,16 @@ li::before {
 
     .rectangle {
         border-radius: 15px;
-        margin: 10px;
-        width: 50%;
+        height: 170px;
+        width: 80%;
+    }
+
+    .rectangle.white {
+        height: 150px;
     }
 
     .rectangle img {
-        width: 60%;
+        width: 30%;
     }
 }
 
@@ -436,25 +527,6 @@ li::before {
 
 /* Contacts */
 
-.contacts_wrapper {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content:space-between;
-    overflow: hidden;
-}
-.contacts_header {
-    font-family: 'Bebas Neue';
-    color: #121212;
-    -webkit-text-stroke: 1px #FF8B00;
-    font-size: 180px;
-    transform: rotate(-90deg);
-    left: -168px;
-    top: -133px;
-    position: relative;
-}
 .devHead {
     font-family: 'Poppins';
     font-style: normal;
@@ -578,121 +650,4 @@ li::before {
 .footer mark {
     color: #FF8B00;
     background-color: #121212;
-}
-
-.globalWrapper.custom {
-    margin-left: 7.5vw;
-    margin-right: 0vw;
-}
-
-.contactsWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.contactsHeader {
-    width: 100%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 6vh;
-    line-height: 135px;
-    color: #FF8B00;
-}
-.contactsForm {
-    width: 40%;
-    text-align: center;
-}
-.picture {
-    width: 60%;
-    overflow: hidden;
-}
-.instagram, .github {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-}
-.socials {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.inputFields {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.inputFields input {
-    background-color: transparent;
-    border: none;
-    border-bottom: 2px #FF8B00 solid;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 45px;
-    color: #FFFFFF;
-    transition: all 0.2s linear;
-    width: 60%;
-    margin-bottom: 3vh;
-}
-.submitbtn{
-    padding: 1vh 10vw;
-    box-shadow: none;
-    background: #FF8B00;
-    border-radius: 45px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 45px;
-    color: #FFFFFF;
-    width: 50%;
-}
-.socials {
-    color: white;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 15px;
-    line-height: 45px;
-}
-.socials div {
-    transition: color 0.2s linear;
-}
-.socials div:hover {
-    color: #FF8B00;
-}
-.socials svg {
-    width: 40px;
-    height: 40px;
-}
-textarea:focus, input:focus{
-    font-size: 25px;
-    outline: none;
-    width: 65%;
-    border-bottom: #FFFFFF 2px solid;
-}
-
-@media only screen and (max-width: 980px) {
-    .inputFields {
-        width: 100%;
-    }
-    .inputFields input {
-        width: 100%;
-    }
-    .picture {
-        display: none;
-    }
-    .contactsWrapper {
-        justify-content: center;
-    }
-    .contactsForm {
-        width: 80%;
-    }
-    .globalWrapper.custom {
-        margin-left: 7.5vw;
-        margin-right: 7.5vw;
-    }
 }
