@@ -57,7 +57,7 @@ function About() {
                                 </ul>
                             </div>
                             <div className="design_text">
-                                <p>Our web design process is simple and straightforward. We begin by working with you to understand your goals, target audience, and overall brand identity. From there, we create a custom design that reflects your unique style and communicates your message effectively.</p>
+                                <p>The web design process is simple and straightforward. We begin by working with you to understand your goals, target audience, and overall brand identity. From there, we create a custom design that reflects your unique style and communicates your message effectively.</p>
                             </div>
                         </div>
                     </div>

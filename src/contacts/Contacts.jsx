@@ -2,19 +2,31 @@ import image from "../media/images/world_dots.png";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 function Contacts() {
-    
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_xyomio8', 'template_0h2segm', form.current, 'mC8rRBovLc2pVVNi9')
+        .then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
     return (
         <div className="contactsWrapper">
             <h1 className="contactsHeader">Contact us</h1>
             <div className="contactsForm">
-                <div className="inputFields">
-                    <motion.input type="text" placeholder="full name" /><br></br>
-                    <motion.input type="text" placeholder="email" /><br></br>
-                    <motion.input type="text" placeholder="question" /><br></br>
-                </div>
-                <a className="submitbtn">send</a>
+                <form className="inputFields" ref={form} onSubmit={sendEmail}>
+                    <motion.input type="text" name="from_name" placeholder="full name" /><br></br>
+                    <motion.input type="text" name="user_email" placeholder="email" /><br></br>
+                    <motion.input type="text" name="message" placeholder="question" /><br></br>
+                </form>
+                <a className="submitbtn" onClick={sendEmail}>send</a>
                 <div className="socials">
                     <div className="instagram">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-instagram" viewBox="0 0 16 16">
