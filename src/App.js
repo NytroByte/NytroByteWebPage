@@ -12,7 +12,7 @@ function App() {
     <motion.div>
       <Loading/>
       <motion.div className="global" style={{opacity: 0, overflow: "hidden"}} animate={{
-        opacity: 1, overflow: "visible",  transition: {duration: 1.2, delay: 5.6}
+        opacity: 1, overflow: "visible",  transition: {duration: 1.2, delay: 3.4}
       }}>
         <div>
           <Header/>

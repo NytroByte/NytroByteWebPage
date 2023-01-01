@@ -5,12 +5,16 @@ function Loading() {
         <motion.div className="LoadingContainer">
             <motion.div className="welcomeContainer">
                 <Typewriter
-                    onInit={(typewriter) => {
+                    options={{
+                        delay: 60,
+                        deleteSpeed: 60
+                    }}
+                    onInit={(typewriter => {
                         typewriter.typeString('Welcome to NytroByte!')
                         .pauseFor(250)
                         .deleteAll()
                         .start();
-                    }}
+                    })}
                 />
             </motion.div>
         </motion.div>

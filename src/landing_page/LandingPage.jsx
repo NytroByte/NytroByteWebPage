@@ -17,7 +17,7 @@ function LandingPage() {
         <div className="landingPageWrapper">
             <div className="background"><motion.img animate={{
                 bottom: 10,
-                transition: {duration: 1.8, delay: 5.6}
+                transition: {duration: 1.8, delay: 3.4}
             }} src={landingBackground}/></div>
             <div className="landingTextHeroContainer">
                 <div className="heroTextBox" ref={ref}>
@@ -33,7 +33,7 @@ function LandingPage() {
                         <div style={{height: height}}>
                             <motion.svg style={{height: 0}}  animate={{
                                             height: height,
-                                            transition: { duration: 1, delay: 5.6},
+                                            transition: { duration: 1, delay: 3.4},
                                         }} width="80" height={height} viewBox="0 0 61 318" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line y1="0.5" x2="61" y2="0.5" stroke="white"/>
                                 <line y1="317.5" x2="61" y2="317.5" stroke="white"/>
@@ -50,7 +50,7 @@ function LandingPage() {
                         <motion.div>
                             <motion.svg style={{width: 0}}  animate={{
                                             width: width,
-                                            transition: { duration: 1, delay: 5.6},
+                                            transition: { duration: 1, delay: 3.4},
                                         }} width={width} height="100" viewBox="0 0 808 61" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <line x1="807.5" y1="61" x2="807.5" stroke="white"/>
                                 <line x1="0.5" y1="61" x2="0.5" stroke="white"/>

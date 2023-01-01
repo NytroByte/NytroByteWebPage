@@ -670,6 +670,7 @@ li::before {
 }
 .picture {
     width: 60%;
+    height: 60vh;
     overflow: hidden;
 }
 .instagram, .github {
