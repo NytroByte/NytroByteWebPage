@@ -2,6 +2,7 @@ import logo from "../media/images/design_image.jpg"
 import { useAnimation, motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { useEffect } from "react";
+import image1 from "../media/images/design_image2.jpg"
 function About() {
     const lineVariants = {
         closed: {width: "0%"},
@@ -44,7 +45,7 @@ function About() {
                 <div className="row">
                     <div className="collumn">
                         <div className="design_img">
-                            <img src={logo}/>
+                            <img src={image1}/>
                         </div>                        
                     </div>
                     <div className="collumn par">
@@ -53,7 +54,7 @@ function About() {
                                 <ul className="listName">
                                     <li>Package design</li>
                                     <li>Website design</li>
-                                    <li>Some design</li>
+                                    <li>Wireframe design</li>
                                 </ul>
                             </div>
                             <div className="design_text">
