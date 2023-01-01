@@ -19,7 +19,6 @@ function App() {
           <LandingPage/>
           <div className="globalWrapper">
             <About/>
-            <Projects/>
           </div>
           <div className="globalWrapper custom">
             <Contacts/>

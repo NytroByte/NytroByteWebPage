@@ -484,12 +484,18 @@ li::before {
     justify-content: center;
     align-items: center;
     border-radius: 30px;
+    transition: 300ms ease-in-out;
 }
 .rectangle img {
     width: 60%;
 }
 .rectangle.white {
     background-color: white;
+}
+
+.rectangle:hover {
+    cursor: pointer;
+    opacity: 0.7;
 }
 
 .logoContainer {
