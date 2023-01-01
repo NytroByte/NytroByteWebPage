@@ -16,7 +16,7 @@ function App() {
         <LandingPage/>
         <div className="globalWrapper">
           <About/>
-          <Projects/>
+          {/* <Projects/> */}
         </div>
         <div className="globalWrapper custom">
           <Contacts/>

@@ -7,11 +7,11 @@ function Projects() {
         <div className="projects_wrapper">
             <h1 className="projects_header">Our projects</h1>
             <div className="clientele">
-                <div className="rectangle">
-                    <div className="logoContainer">
-                        <img id="Mlogo1" src={Mlogo1}/>
+                    <div className="rectangle">
+                        <div className="logoContainer">
+                            <img id="Mlogo1" src={Mlogo1}/>
+                        </div>
                     </div>
-                </div>
                 <div className="rectangle white">
                     <img src={logo}/>
                 </div>
