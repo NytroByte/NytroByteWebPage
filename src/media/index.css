@@ -4,6 +4,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     background-color: #121212;
+    overflow-x: hidden;
 }
 .globalWrapper {
     margin-left: 7.5vw;
@@ -143,7 +144,7 @@ body {
     padding: 25px;
     translate: 0 25vh;
     width: 40vw;
-    z-index: 10000000000;
+    z-index: 100;
     display: flex;
     flex-wrap: wrap;
     border: 1.5px solid #FF8B00;
@@ -669,6 +670,7 @@ li::before {
 }
 .picture {
     width: 60%;
+    height: 60vh;
     overflow: hidden;
 }
 .instagram, .github {
@@ -817,4 +819,43 @@ textarea:focus, input:focus{
     .footer h1 {
         font-size: 25px;
     }
+}
+
+
+.LoadingContainer {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FF8B00;
+}
+.welcomeContainer {
+    font-size: 5vw;
+    font-family: 'Ubuntu Mono';
+    font-style: normal;
+    font-weight: 400;
+    justify-content: center;
+}
+.Typewriter__cursor {
+    display: none;
+}
+.global {
+    overflow: hidden;
+    height: 100vh;
+}
+.privacy-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #121212;
 }
