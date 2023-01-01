@@ -1,6 +1,7 @@
 import useScrollListener from "./useScrollListener";
 import React, {useState, useEffect} from "react";
 import logo from "../media/images/logo.jpg"
+import logov2 from "../media/images/logo_transparent.png"
 function Header() {
     const [navClassList, setNavClassList] = useState([]);
     const scroll = useScrollListener();
@@ -20,7 +21,7 @@ function Header() {
         <div className={`header ${navClassList.join(" ")}`}>
             <div className="headerWrapper">
                 <div className="headerLogo">
-                    <img src={logo}/>
+                    <img src={logov2}/>
                 </div>
                 <div className="headerLinks">
                     <div className="link">

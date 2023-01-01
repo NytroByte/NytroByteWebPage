@@ -19,7 +19,7 @@ body {
      }
 }
 .headerLogo img{
-    max-width: 220px;
+    max-width: 134px;
 }
 .headerLogo {
     display: flex;
@@ -812,6 +812,12 @@ textarea:focus, input:focus{
 .footer mark {
     color: #FF8B00;
     background-color: #121212;
+}
+
+.logoImg {
+    width: 65px;
+    height: auto;
+    margin-left: 1px;
 }
 
 
