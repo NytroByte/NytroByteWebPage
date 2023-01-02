@@ -46,7 +46,7 @@ function Header() {
                             <path className="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
                         </svg>
                     </div>
-                    <div className="burgerContent">
+                    <div className={`burgerContent ${burgerOpen ? "open": ""}`}>
                         <motion.div animate={burgerOpen ? "visible" : "hidden"} initial="hidden" variants={variants} className="linkContainer">
                             <div className="link"><Link to="design" spy={true} smooth={true}>design</Link></div>
                             <div className="link"><Link to="development" spy={true} smooth={true}>development</Link></div>

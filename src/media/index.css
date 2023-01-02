@@ -916,3 +916,11 @@ textarea:focus, input:focus{
         display: block;
     }
 }
+.burgerContent.open:not(.linkContainer) {
+    width: 100vw;
+    height: 100vh;
+    background-color: ;
+    background: linear-gradient(rgba(27, 27, 27, 0.5), rgba(27, 27, 27, 0.5));
+    position: absolute;
+    left: 0;
+}
