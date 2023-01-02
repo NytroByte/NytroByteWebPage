@@ -18,7 +18,7 @@ function Contacts() {
         });
     };
     return (
-        <div className="contactsWrapper">
+        <div className="contactsWrapper" id="contacts">
             <h1 className="contactsHeader">Contact us</h1>
             <div className="contactsForm">
                 <form className="inputFields" ref={form} onSubmit={sendEmail}>

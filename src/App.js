@@ -6,7 +6,6 @@ import Contacts from "./contacts/Contacts";
 import Footer from "./footer/Footer";
 import { motion } from "framer-motion";
 import Loading from "./loadingScreen/Loading";
-
 function App() {
   return (
     <motion.div>
@@ -15,15 +14,15 @@ function App() {
         opacity: 1, overflow: "visible",  transition: {duration: 1.2, delay: 3.4}
       }}>
         <div>
-          <Header/>
+          <Header className="header"/>
           <LandingPage/>
-          <div className="globalWrapper">
-            <About/>
+          <div className="globalWrapper" id="about">
+            <About />
           </div>
           <div className="globalWrapper custom">
             <Contacts/>
-          </div>
           <Footer/>
+          </div>
         </div>
       </motion.div>
     </motion.div>

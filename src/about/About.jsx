@@ -32,7 +32,7 @@ function About() {
     }, [controls1, inView1])
     return(
         <div className="AboutSectionWrapper">
-            <div className="design_container">
+            <div className="design_container" id="design">
                 <div className="desHeader">
                     <motion.div       
                     ref={ref}
@@ -45,7 +45,7 @@ function About() {
                 <div className="row">
                     <div className="collumn">
                         <div className="design_img">
-                            <img src={image1}/>
+                            <img src={logo}/>
                         </div>                        
                     </div>
                     <div className="collumn par">
@@ -66,7 +66,7 @@ function About() {
             </div>
 
 
-            <div className="developmentContainer">
+            <div className="developmentContainer" id="development">
                 <div className="developmentHeader">
                     <div className="devHead">Development</div>
                     <div className="devHeaderDecoration">
