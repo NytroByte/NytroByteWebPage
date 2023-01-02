@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0bf04030.css",
-    "main.js": "/static/js/main.7f0caccb.js",
+    "main.css": "/static/css/main.56e1bc19.css",
+    "main.js": "/static/js/main.019bea54.js",
     "static/media/design_image2.jpg": "/static/media/design_image2.017f756cbcfe89ec5e4b.jpg",
     "static/media/form.png": "/static/media/form.c1a00ce0573057abfa1a.png",
     "static/media/Redzes_pasaule_logo.png": "/static/media/Redzes_pasaule_logo.ec0a15ce7827bc59331d.png",
@@ -11,11 +11,11 @@
     "static/media/artboard_transparent.png": "/static/media/artboard_transparent.3311baa27aee044f4472.png",
     "static/media/image.png": "/static/media/image.c1593ecb2fbb6af355d4.png",
     "index.html": "/index.html",
-    "main.0bf04030.css.map": "/static/css/main.0bf04030.css.map",
-    "main.7f0caccb.js.map": "/static/js/main.7f0caccb.js.map"
+    "main.56e1bc19.css.map": "/static/css/main.56e1bc19.css.map",
+    "main.019bea54.js.map": "/static/js/main.019bea54.js.map"
   },
   "entrypoints": [
-    "static/css/main.0bf04030.css",
-    "static/js/main.7f0caccb.js"
+    "static/css/main.56e1bc19.css",
+    "static/js/main.019bea54.js"
   ]
 }
