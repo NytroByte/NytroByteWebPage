@@ -297,10 +297,10 @@ li::before {
 .design_text p {
     color: white;
     font-family: 'Poppins';
-    font-size: 28px;
+    font-size: 3vh;
     line-height: 160%;
     width: 523px;
-    padding-left: 25px;
+    padding: 0 25px;
 }
 
 .collumn {
@@ -371,7 +371,7 @@ li::before {
 
 
     .design_ul {
-        font-size: 25px;
+        font-size: 4vh;
         line-height: 60px;
     }
 
@@ -620,7 +620,7 @@ li::before {
     }
 
     .codeDec {
-        font-size: 22px;
+        font-size: 3.2vh;
     }
 
     .devCol.comment {
@@ -903,6 +903,7 @@ textarea:focus, input:focus{
   }
   .headerLinksMobile .link {
     padding: 25px;
+    position: relative;
   }
   .headerLinksMobile {
     display: none;
